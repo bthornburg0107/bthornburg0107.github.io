@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Braden Thornburg | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+  html {
+    background-color: #74a7f9;
+  }
+
+  body {
+    background-color: #ffffff;
+    font-family: "Inter", Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h1 + p, .project > p:nth-of-type(1) {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .project {
+    margin-bottom: 60px;
+  }
+</style>
+</head>
+<body>
+  <h1>Braden Thornburg</h1>
+  <p>Data Science student at North Dakota State University</p>
+
+  <h2>Projects</h2>
+
+  <section class="project">
+    <h3>Business Analytics | Pricing &amp; Market Strategy Analysis</h3>
+    <p><em>BUSN 380 Final Project</em></p>
+    <img src="busn380.png" alt="Dashboard from BUSN 380 final project" width="600">
+    <p>
+      For this project, I chose a company and a business question to answer
+      using the analytics toolkit from the course. Using Apple as a case study,
+      I compared the iPhone Pro line against the base models and carried out an
+      end-to-end analysis covering all four types of analytics. I used regression
+      analysis to estimate price elasticity and forecast demand, calculated
+      customer lifetime value (CLV), and ran break-even and sensitivity analysis.
+      I then used optimization to find the best pricing strategy and compared
+      candidate markets with a scorecard and Hofstede cultural scores. Market
+      simulations stress-tested the final recommendation. Result: the two product
+      lines performed distinctly differently, and my analysis concluded that
+      Apple's current strategy is effective but should prioritize specific
+      regional markets for the best outcome.
+    </p>
+    <p><strong>Tools:</strong> Power BI, Tableau, Excel</p>
+    <p><strong>Methods:</strong> Pricing &amp; elasticity, demand forecasting,
+    regression, CLV, break-even &amp; sensitivity analysis, optimization,
+    market simulation, market scorecards, Hofstede dimensions</p>
+  </section>
+
+  <section class="project">
+  <h3>Database Systems | Family Shopping Tracker</h3>
+  <p><em>CSCI 366 Final Project</em></p>
+  <img src="csci366.png" alt="Screenshot of the family shopping tracker" width="600">
+  <p>
+    As part of a team of 3 people, I designed and built a family shopping
+    tracker with a relational PostgreSQL database and a Java application. 
+    The schema has at least five tables in 3NF with one-to-many
+    and many-to-many relationships, a view, and an index. The Java app
+    connects directly to the database using parameterized SQL statements, with
+    no framework generating queries. Users can record shopping trips, manage
+    stores and categories, and run reports such as daily purchases per family
+    member, spending by store, top spending category, and the most expensive
+    item in a month. MY role in this project was to design methods on the java 
+    portion of the application to handle more specialized and specific report 
+    calling methods to get data pertaining to specific time spans, people, 
+    shopping lists, products, stores, and other identifiers.
+  </p>
+  <p><strong>Tools:</strong> Java, NetBeans, PostgreSQL, pgAdmin, SQL</p>
+  <p><strong>Concepts:</strong> Database design, ERD modeling, 3NF,
+  joins and aggregate queries, views and indexes, prepared statements,
+  CRUD operations</p>
+</section>
+
+<section class="project">
+  <h3>Computer Science Problem Solving |Web Calculator</h3>
+  <p><em>CSCI 159 Final Project</em></p>
+  <img src="csci159.png" alt="Screenshot of the web calculator" width="400">
+  <p>
+    Built a working calculator from scratch for the course's final project,
+    bringing together the skills from the whole semester. It runs in the
+    browser and supports basic arithmetic along with modulo, factorials, sign
+    toggling, and decimals. HTML provides the structure, CSS handles the
+    layout and styling, and JavaScript handles the button input and
+    calculations.
+  </p>
+  <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+</section>
+</body>
+</html>
